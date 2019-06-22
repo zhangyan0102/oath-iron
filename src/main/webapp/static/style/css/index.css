@@ -1,9 +1,5 @@
-.indexdg{
-	text-align:center;
-}
-#nav .panel-header{
-	padding-left: 18px;
-}
-#nav .nav-item{
-	padding-left: 25px;
+.logoTitle {
+	font-size: 3rem;
+    font-family: 华文行楷;
+    color:#C7081B;
 }

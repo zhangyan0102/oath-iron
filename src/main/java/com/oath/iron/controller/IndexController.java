@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.oath.iron.common.BaseController;
 
 /**
- * @author loxn
+ * 首页 yangjw
  */
 @Controller
 public class IndexController extends BaseController {

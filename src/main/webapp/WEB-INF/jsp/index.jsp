@@ -17,8 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="/static/style/css/pc/iconfont.css" />
 	<link rel="stylesheet" type="text/css" href="/static/style/css/pc/style.css" />
 	<link rel="stylesheet" type="text/css" href="/static/style/css/index.css" />
-	<script>FontAwesomeConfig={searchPseudoElements:true};</script>
-	<script defer src="http://jchulan.bbctop3.bdy.smp02.cn/Public/site/js/icon.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.12.3.min.js"></script>
 </head>
 <body class="none-reponsive">
 	<header id="header">
@@ -35,11 +34,12 @@
 							</h1>
 						</div>
 						<div class="hotline col-md-6">
-							<a class="b-hotline" href="tel:13691371611"><i
-								class="fi fi-lianxifangshi"></i>
+							<a class="b-hotline" href="tel:13691371611">
+								<i class="fi fi-lianxifangshi"></i>
 								<div class="group-hotline">
 									服务热线：<span>186****4842</span>
-								</div></a>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -55,13 +55,7 @@
 						<li class="dropdown">
 							<a href="/">
 							<span class="nav-title">产品展示</span></a>
-							<ul class="dropdown-box b-dropdown-box">
-								<li><a href="/">白钢门</a></li>
-								<li><a href="/">百叶窗</a></li>
-								<li><a href="/">大门</a></li>
-								<li><a href="/">扶手</a></li>
-								<li><a href="/">铁艺围栏</a></li>
-<!-- 								<li><a href="/product?cid=7">黄金护栏</a></li> -->
+							<ul id="type_project" class="dropdown-box b-dropdown-box">
 							</ul>
 						</li>
 						<li>
@@ -88,14 +82,14 @@
 		<section class="index-banner">
 			<div class="owl-carousel b-owl">
 				<a href="">
-					<div class="slider-item"
-						style="background-image: url('http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-11/15602247471885688984.png')"></div></a><a
-					href="">
-					<div class="slider-item"
-						style="background-image: url('http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-11/15602247041215336593.png')"></div></a><a
-					href="">
-					<div class="slider-item"
-						style="background-image: url('http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/15601501271131275768.png')"></div></a>
+					<div class="slider-item" style="background-image: url('/static/img/pc/bannerIndex1.png')"></div>
+				</a>
+				<a href="">
+					<div class="slider-item" style="background-image: url('/static/img/pc/bannerIndex2.png')"></div>
+				</a>
+				<a href="">
+					<div class="slider-item" style="background-image: url('/static/img/pc/bannerIndex3.png')"></div>
+				</a>
 			</div>
 		</section>
 		<section class="b-support b-pdtb-30">
@@ -108,16 +102,7 @@
 								<div class="text2">产品展示</div>
 								<div class="text3"></div>
 							</div>
-							<ul class="b-menu-side">
-								<li><a href="/"><i class="fi fi-Right"></i>白钢门</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>百叶窗</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>大门</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>扶手</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>铁艺围栏</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>铁艺白钢门</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>铁艺百叶窗</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>铁艺大门</a></li>
-								<li><a href="/"><i class="fi fi-Right"></i>铁艺扶手</a></li>
+							<ul id="menu_project" class="b-menu-side">
 							</ul>
 						</div>
 					</div>
@@ -347,8 +332,8 @@
 			<div class="fix_qq_foot"></div>
 		</div>
 	</footer>
-	<script
-		src="http://jchulan.bbctop3.bdy.smp02.cn/Public/site/js/core.js"></script>
+	<script src="/static/js/core.js"></script>
+	<script src="/static/js/index.js"></script>
 	<script>
 		var lia = $('.foot-menu .foot-menu-item').length;
 		$('.foot-menu').attr('data-foot', lia);
@@ -396,6 +381,5 @@
 		})
 	</script>
 	<div id="tjjs"></div>
-	<!--请依次输入包含＜script＞和＜/script＞标签完整的代码-->
 </body>
 </html>

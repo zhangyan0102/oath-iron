@@ -1,9 +1,4 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7300,7 +7295,7 @@ select.bs-select-hidden, select.selectpicker {
         padding-right: 5px; }
 
 .b-aboutus {
-  background-image: url(../img/bj1.jpg);
+  background-image: url(/static/img/pc/bj1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }

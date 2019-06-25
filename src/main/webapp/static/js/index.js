@@ -1,88 +1,17 @@
-var index_layout;
-var index_tabs;
-var layout_west_tree;
-
+/**
+ * 生成页面html代码
+ */
 $(function () {
-    index_layout = $('#index_layout').layout({
-        fit: true
-    });
-    index_tabs = $('#index_tabs').tabs(
-        {
-            fit: true,
-            border: false
-            /*tools: [
-                {
-                    iconCls: 'icon-home',
-                    handler: function () {
-                        index_tabs.tabs('select', 0);
-                    }
-                },
-                {
-                    iconCls: 'icon-del',
-                    handler: function () {
-                        var index = index_tabs.tabs('getTabIndex',
-                            index_tabs.tabs('getSelected'));
-                        var tab = index_tabs.tabs('getTab', index);
-                        if (tab.panel('options').closable) {
-                            index_tabs.tabs('close', index);
-                        }
-                    }
-                }]*/
-        });
-
-    generateNav();
-    
-});
-$(window).load(function(){
+	var type_p = "白钢门,百叶窗,大门,扶手,围栏";
+	var strs= new Array();
+	strs = type_p.split(",");
+	var insertText = "";
+	var menuHtml = "";
+	for (var i = 0; i < strs.length; i++) {
+		insertText += "<li><a href=\"/product?cid=" + i + "\">" + strs[i] + "</a></li>";
+		menuHtml += "<li><a href=\"/product?cid=" + i + "\"><i class=\"fi fi-Right\"></i>" + strs[i] + "</a></li>";
+	}
 	
-	setTimeout(function(){
-//		$("#nav .panel-header").eq(0).click();
-		addTab('个人审批效率','/personalApprove/manager','icon-folder');
-	},100);
-	
+	document.getElementById("type_project").innerHTML = insertText;
+	document.getElementById("menu_project").innerHTML = menuHtml;
 });
-
-function addTab(title, href, icon) {
-    var tt = $('#index_tabs');
-    icon = icon || 'menu_icon_service';
-    if (tt.tabs('exists', title)) {
-        tt.tabs('select', title);
-        var currTab = tt.tabs('getTab', title);
-        tt.tabs('update', {
-            tab: currTab,
-            options: {
-                content: content,
-                closable: true
-            }
-        });
-    } else {
-        if (href) {
-            var content = '<iframe frameborder="0" src="' + href
-                + '" style="border:0;width:100%;height:97%;overflow: hidden;"></iframe>';
-        } else {
-            var content = '未实现';
-        }
-        tt.tabs('add', {
-            title: title,
-            content: content,
-            closable: true,
-            iconCls: icon
-        });
-    }
-}
-
-function editUserPwd() {
-    parent.$.modalDialog({
-        title: '修改密码',
-        width: 300,
-        height: 180,
-        href: '/user/editPwdPage',
-        buttons: [{
-            text: '确定',
-            handler: function () {
-                var f = parent.$.modalDialog.handler.find('#editUserPwdForm');
-                f.submit();
-            }
-        }]
-    });
-}

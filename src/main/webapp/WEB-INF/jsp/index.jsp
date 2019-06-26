@@ -55,7 +55,7 @@
 						<li class="dropdown">
 							<a href="/">
 							<span class="nav-title">产品展示</span></a>
-							<ul id="type_project" class="dropdown-box b-dropdown-box">
+							<ul id="type_product" class="dropdown-box b-dropdown-box">
 							</ul>
 						</li>
 						<li>
@@ -102,121 +102,13 @@
 								<div class="text2">产品展示</div>
 								<div class="text3"></div>
 							</div>
-							<ul id="menu_project" class="b-menu-side">
+							<ul id="menu_product" class="b-menu-side">
 							</ul>
 						</div>
 					</div>
 					<div class="col-12 col-md-8 col-lg-9">
 						<div class="container b-cont-1">
-							<div class="row b-row-1">
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>白钢门</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>百叶窗</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>大门</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-6 col-md-6 col-lg-4 b-col-1">
-									<div class="b-group-item-1-box">
-										<a href="/">
-											<div class="b-group-item-1">
-												<div class="img">
-													<img src="http://jchulan.bbctop3.bdy.smp02.cn/Public/uploads/2019-06-10/1560135905589040399.jpg">
-												</div>
-												<h5>铁艺围栏</h5>
-											</div>
-										</a>
-									</div>
-								</div>
+							<div id="type_img_product" class="row b-row-1">
 							</div>
 						</div>
 					</div>
@@ -284,102 +176,19 @@
 		<div class="container text-center">
 			<ul>
 				<li><a href="/">网站首页</a></li>
-				<li><a href="http://jchulan.bbctop3.bdy.smp02.cn/aboutus?cid=1">公司简介</a></li>
 				<li><a href="http://jchulan.bbctop3.bdy.smp02.cn/product?cid=2">产品展示</a></li>
+				<li><a href="http://jchulan.bbctop3.bdy.smp02.cn/aboutus?cid=1">公司简介</a></li>
 				<li><a href="http://jchulan.bbctop3.bdy.smp02.cn/news?cid=3">常见问题</a></li>
-				<li><a
-					href="http://jchulan.bbctop3.bdy.smp02.cn/aboutus?cid=26">售后服务</a></li>
-				<li class="border-right"><a
-					href="http://jchulan.bbctop3.bdy.smp02.cn/contactus?cid=5">联系我们</a></li>
+				<li><a href="http://jchulan.bbctop3.bdy.smp02.cn/aboutus?cid=26">售后服务</a></li>
+				<li class="border-right"><a href="http://jchulan.bbctop3.bdy.smp02.cn/contactus?cid=5">联系我们</a></li>
 			</ul>
 			<div class="copyright">
-				<span>© 2019 智涵金属</span><span></span><span></span><span
-					style="display: inline-block"><a
-					href="http://www.bbctop.com" title="网站开发" target="_blank"
-					class="px-0 py-0">网站开发</a>:<a href="http://www.bbctop.com"
-					title="超越无限" target="_blank" class="px-0 py-0">超越无限</a></span>
+				<span>© 2019 景辉铁艺</span><span></span><span></span>
+				<span style="display: inline-block">版权所有 @沈阳市景辉铁艺加工厂</span>
 			</div>
-			<div class="foot-menu">
-				<div class="foot-menu-item">
-					<a class="foot-menu-link" href="tel:13691371611"><i
-						class="fa fa-phone"></i>电话</a>
-				</div>
-				<div class="foot-menu-item">
-					<a class="foot-menu-link" href="/contactus?cid=5"><i
-						class="fa fa-map-marker"></i>地图</a>
-				</div>
-				<div class="foot-menu-item bdsharebuttonbox" data-tag="share_1"
-					data-bd-bind="1534914035951">
-					<a class="foot-menu-link popup_more" onclick="return false"
-						data-cmd="more" href="#x"><i class="fa fa-share-alt"></i>分享</a>
-				</div>
-				<div class="foot-menu-item">
-					<a class="foot-menu-link" href="mailto:787130383@qq.com"><i
-						class="fa fa-envelope"></i>邮箱</a>
-				</div>
-			</div>
-		</div>
-		<div class="open d-none"></div>
-		<div class="fix_qq d-none">
-			<div class="off"></div>
-			<div class="fix_qq_top"></div>
-			<div class="fix_qq_center">
-				在线客服<br> <a target="_blank"
-					href="http://wpa.qq.com/msgrd?v=3&amp;uin=0000&amp;site=qq&amp;menu=yes"><img
-					src="http://wpa.qq.com/pa?p=2:441227362:51" alt="点击这里给我发消息"
-					border="0" align="absmiddle" title="点击这里给我发消息"></a><br>
-			</div>
-			<div class="fix_qq_foot"></div>
 		</div>
 	</footer>
 	<script src="/static/js/core.js"></script>
 	<script src="/static/js/index.js"></script>
-	<script>
-		var lia = $('.foot-menu .foot-menu-item').length;
-		$('.foot-menu').attr('data-foot', lia);
-		window._bd_share_config = {
-			"common" : {
-				"bdSnsKey" : {},
-				"bdText" : "",
-				"bdMini" : "2",
-				"bdMiniList" : false,
-				"bdPic" : "",
-				"bdStyle" : "0",
-				"bdCustomStyle" : "css/share.css"
-			},
-			"share" : {}
-		};
-		with (document)
-			0[(getElementsByTagName('head')[0] || body)
-					.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
-					+ ~(-new Date() / 36e5)];
-	</script>
-	<script>
-		jQuery(function($) {
-			$(".b-owl").owlCarousel(
-					{
-						autoplay : true,
-						mouseDrag : false,
-						loop : true,
-						nav : true,
-						navText : [ '<span class="fi fi-Left"></span>',
-								'<span class="fi fi-Right"></span>' ],
-						items : 1,
-					})
-		})
-	</script>
-	<script>
-		$(document).ready(function() {
-			$('.open').click(function(event) {
-				$(".fix_qq").show(300);
-				$(".open").hide();
-			});
-			$('.off').click(function() {
-				$(this).parents(".fix_qq").hide(300);
-				$(".open").show();
-			});
-		})
-	</script>
-	<div id="tjjs"></div>
 </body>
 </html>
